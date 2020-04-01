@@ -1,0 +1,193 @@
+/*GLOBAL*/
+html {
+    font-size: 62.5%;
+   }
+  
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    line-height: 25px;
+    width: 100%;
+    color:#772590;
+   }
+/*nav*/
+.sidenav {
+    width:100%;
+    font-size:1.2em;
+    
+} 
+.sidenav li a {
+    font-size:1em;
+}
+.sidenav li a i.material-icons{
+    color:white;
+    float: right;
+    margin:0;   
+}
+.sidenav,.sidenav .item {
+    
+      background-color:#772590;
+      color:white;
+      text-align:center;
+}
+.collapsible.pratique .collapsible-header, .collapsible.article .collapsible-header{
+    justify-content: center;
+    margin-right:50px;
+    width:100%;
+}  
+.collapsible.pratique .li_works {
+      padding:0 auto;
+    }
+.collapsible.pratique .mesPratiques,.liens_article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.collapsible-body article .li_works .collapsible-header{
+    color:#772590;
+    background-color:#e1b8f5 ;
+}
+.liens_article a {
+    color:#772590;
+}
+.mesPratiques a , .collapsible .collapsible-header.title{
+    background-color:#e1b8f5 ;
+    color:#772590;
+}
+
+/*header*/
+header {
+    width:100%;
+    color:#9c46ca;
+   padding:10px 10px;
+}
+header #menu {
+   position:fixed;
+   top:10px;
+   right: 5px;  
+}
+header #menu i {
+    font-size: 40px;
+    color:#772590;
+}
+header .logo {
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+}
+header .logo_img {
+    width:25px;
+    height:25px;
+}
+header .logo h2 {
+    font-size: 1.6em;
+    margin-left:10px;
+    padding-bottom:10px;
+}
+header .menu_job {
+    margin-left:35px;
+}
+header .menu_job h2 {
+    font-size: 1em;
+}
+header .menu_job h3 {
+    font-size: 1em;
+    font-style: italic;   
+}
+header .menu_job h2,header .menu_job h3 {
+    color:#687e0f;
+}
+header p {
+    font-size: 1em;
+}
+header a {
+    color:#772590;
+}
+header a:hover {
+    color:#687e0f;
+}
+
+/*main*/
+ main h1 {
+    font-size:2em;
+    line-height: 30px;
+}
+main h2 {
+    font-size:1.8em;
+}
+main h3 {
+    font-size:1.4em;
+}
+main p {
+    font-style: italic;
+}
+/*footer*/
+.footer {
+   background-color:#772590;
+   color:white;
+   padding:40px 20px;
+}
+.footer_nom {
+    padding-bottom: 10px;
+}
+.footer_coord a {
+    color:white;
+    padding-top: 10px;
+}
+.footer_nav h5,.footer_coord h5{
+    padding:10px 0px 20px;
+    color:#fff052;
+}
+.footer_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-bottom: 10px;
+}
+.footer_nav a {
+    color: white;
+}
+.footer_nav a:hover {
+    color:#fff052;
+}
+/*mediaqueries*/
+@media (min-width: 600px) {
+    header {
+        padding:30px 20px;
+    }
+    header .menu_job{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        margin-left:35px;
+    }
+    header .menu_job_adress {
+        padding-left:30px;
+    }
+    header #menu i {
+        font-size: 50px;  
+    }
+}
+@media (min-width: 900px) { 
+   
+    header .menu_job_adress {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+  }
+  .menu_job_adress p a {
+      padding-left:30px;
+  }
+    .footer {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:20px 30px;
+    }
+    .footer_nom {
+        padding-top:10px;
+    }
+
+     }

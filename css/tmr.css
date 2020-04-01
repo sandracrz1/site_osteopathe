@@ -1,0 +1,56 @@
+/*main*/
+.tmr_main {
+    color:#772590;
+    background: linear-gradient(to bottom, #e0b7f5, #f7edfc 100%);
+    padding-left:10px;
+    padding-right: 10px;
+    margin-bottom:20px;
+    text-align: justify; 
+    line-height: 20px; 
+}
+.tmr_allergie_text p,.tmr_nickel_text p {
+padding-bottom:10px;
+}
+.tmr_allergie_text div,.tmr_nickel_text div {
+    line-height: 20px;
+}
+.tmr_main span {
+    font-weight: 510;
+}
+.tmr_main img {
+    width:100%;
+    padding-right:10px;
+    margin-bottom: 20px;
+}
+.tmr_main h1 {
+   
+    padding-top:30px;
+    padding-bottom:30px;
+    line-height: 30px; 
+}
+.tmr_main h2 {
+    
+    padding-top:20px;
+    padding-bottom: 40px;
+    line-height: 25px;
+    word-break: break-word; 
+}
+.tmr_main h3 {
+    padding-top:10px;
+    padding-bottom:10px;
+    -webkit-text-decoration-line: underline; /* Safari */
+   text-decoration-line: underline;
+} 
+.tmr_main li {
+    padding-bottom:3px;
+}
+.tmr_main ul li {
+    margin-left:20px;
+    list-style-type: circle;
+}
+.tmr_main ol li {
+    margin-left:20px;
+}
+.tmr_temoignage_text h2 a:hover {
+    color:#772590;
+}

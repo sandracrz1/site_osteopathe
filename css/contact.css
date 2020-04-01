@@ -1,0 +1,80 @@
+/*main*/
+.contact_img {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/img_accueil/pensee.jpg");
+  background-size: cover;
+}
+.contact_section {
+text-align:center;
+}
+.contact_section h2 {
+    font-size: 2em;
+    padding-bottom:40px;
+}
+.contact_section h3 {
+    font-size:1.5em;
+    padding-bottom:10px;
+}
+.contact_section h4 {
+    color:#687e0f;
+    line-height: 20px;
+}
+.contact_div_pro  {
+    margin-bottom:20px; 
+}
+.contact_presentation .p2 {
+    margin-bottom:10px; 
+}
+.contact_presentation .tel a {
+    color:#772590;
+    margin-bottom:10px ;
+}
+.contact_presentation .tel a:hover {
+    color:#687e0f;
+}
+.contact_form {
+    margin-top:40px;
+    padding:10px 10px;
+    background-color: #ddb1f4;
+}
+.contact_form h3 {
+    padding:20px 0;
+}
+.contact_form button {
+    color:white;
+    background-color: #772590;
+}
+.contact_form button:hover {
+    background-color:  white;
+    color:#772590;
+}
+#form .input-field label.active {
+    color: white !important;
+}
+#form .input {
+    color:white;
+}
+input:not([type]):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="url"]:not(.browser-default):focus:not([readonly]),
+input[type="time"]:not(.browser-default):focus:not([readonly]),
+input[type="date"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+input[type="tel"]:not(.browser-default):focus:not([readonly]),
+input[type="number"]:not(.browser-default):focus:not([readonly]),
+input[type="search"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid white;
+    -webkit-box-shadow: 0 1px 0 0 white;
+    box-shadow: 0 1px 0 0 white;
+}
+#form .input-field i.active {
+    color: white;
+}
+#form .input-field label.active {
+    color: white !important;
+}

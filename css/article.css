@@ -1,0 +1,42 @@
+/*main*/
+/*argent collaidal*/
+.main_article_text {
+    background: linear-gradient(to top, #fff79a,#fffcda 100%);
+}
+.main_article h1{
+    font-size:2.2em;
+    color:#772590;
+    padding-left:10px;
+    padding-top:30px; 
+}
+.main_article h2 {
+    font-size:2em;
+    padding-top:50px;
+    padding-bottom: 30px;
+    padding-left:10px;
+}
+.main_article h3 {
+    padding-left:10px;
+    padding-bottom: 10px;
+    text-decoration-line: underline;
+}
+.main_article p,.main_article a {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.argent_photo  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.argent_photo,.argent_photo_graph {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.argent_photo a {
+    margin-top: 10px;
+}
+/*lit incliné*/
+.main_article_litIncline{
+    background: linear-gradient(to bottom, #e0b7f5, #f7edfc 100%);
+}
