@@ -50,11 +50,11 @@
                                 <div class="collapsible-header title"><i class="material-icons arrow">arrow_downward</i>Allergies - Immunité</div>
                                 <div class="collapsible-body nom_article">
                                     <div class="liens_article">
-                                        <a href="article.html#argentColloidal">Argent Colloidal </a>
-                                        <a href="article.html#litIncline">La méthode du lit incliné</a>
-                                        <a href="article.html#maladieLyme">Maladie de Lyme</a>
-                                        <a href="article.html#maladieAuto">Maladie auto-immunes</a>
-                                        <a href="article.html#tibetain">Les 5 tibétains</a>
+                                        <a class="nav_item_click" href="#argentColloidal">Argent Colloidal </a>
+                                        <a class="nav_item_click" href="#litIncline">La méthode du lit incliné</a>
+                                        <a class="nav_item_click" href="#maladieLyme">Maladie de Lyme</a>
+                                        <a class="nav_item_click" href="#maladieAuto">Maladie auto-immunes</a>
+                                        <a class="nav_item_click" href="#tibetain">Les 5 tibétains</a>
                                     </div>
                                 </div>
                             </li>
@@ -62,10 +62,11 @@
                                 <div class="collapsible-header title"><i class="material-icons arrow">arrow_downward</i>Nutrithérapie - Hydratation</div>
                                 <div class="collapsible-body nom_article">
                                     <div class="liens_article">
-                                        <a href="article.html#vertuEau">Vertus médicales de l'eau</a>
-                                        <a href="article.html#beurre">Différence entre la margarine et le beurre</a>
-                                        <a href="article.html#alimInf">Liste des aliments inflammatoires</a>
-                                        <a href="article.html#sommeilFaim">Manque de sommeil et faim</a>
+                                        <a class="nav_item_click" href="#vertuEau">Vertus médicales de l'eau</a>
+                                        <a class="nav_item_click" href="#beurre">Différence entre la margarine et le beurre</a>
+                                        <a class="nav_item_click" href="article.html#alimInt">Intoxications</a>
+                                        <a class="nav_item_click" href="article.html#alimInf">Inflammations</a>
+                                        <a class="nav_item_click" href="#sommeilFaim">Manque de sommeil et faim</a>
                                     </div>
                                 </div>
                             </li>
@@ -73,8 +74,8 @@
                                 <div class="collapsible-header title"><i class="material-icons arrow">arrow_downward</i>Osteopathie</div>
                                 <div class="collapsible-body nom_article">
                                     <div class="liens_article">
-                                        <a href="article.html#maldos">Mal de dos</a>
-                                        <a href="article.html#videosostéo">Vidéos ostéopathie</a>
+                                        <a class="nav_item_click" href="#maldos">Mal de dos</a>
+                                        <a class="nav_item_click" href="#videososteo">Vidéos ostéopathie</a>
                                     </div>
                                 </div>
                             </li>
@@ -111,8 +112,8 @@
             </div>
         </div>
     </header>
-    <main class="main_article container">
-        <article class="main_article_text">
+    <main class="main main_article container">
+        <article id ="argentColloidal" class="main main_article_text">
             <h1>Un Peu de Documentation...</h1>
             <h2>Argent Colloïdal</h2>
             <p>Je vous présente les podologies de l'argent colloïdale disponible chez votre nutrithérapeute.</p>
@@ -128,7 +129,7 @@
             </div>
         </div>
         </article>
-        <article class="main_article_litIncline">
+        <article id ="litIncline" class=" main main_article_litIncline">
             <h2>La méthode du lit incliné</h2>
             <div>
                 <p>Andrew K. Fletcher est un ingénieur anglais doté d’une grande capacité d’observation et de réflexion.</p>
@@ -142,15 +143,93 @@
                 <p>La sève montante – par capillarité – qui est captée par les racines est en fait composée de 98% d’eau chargée de nutriments.</p>
                 <p>Quand elle arrive au niveau des feuilles, une évaporation importante s’effectue (on connaît la fraîcheur qu’apportent les arbres et le principe de formation des nuages au-dessus des forêts).</p>
                 <p>Conséquemment à cette évaporation, la sève se concentre et devient plus dense, donc plus lourde, ce qui la fait redescendre sous l’effet de la pesanteur, nourrissant tout ce qui peut l’être (fruits, branches, tronc, racines)...</p>
-                <a href="https://www.alternativesante.fr/remede-de-grand-mere/le-lit-incline-pour-se-soigner-en-dormant">"Le lit incliné pour se soigner en dormant"</a>
-
+                <a href="https://www.alternativesante.fr/remede-de-grand-mere/le-lit-incline-pour-se-soigner-en-dormant" target="_blank">A lire: "Le lit incliné pour se soigner..."</a>
             </div>
-            <div></div>
         </article>
-
+        <article id ="maladieLyme" class=" main main_article_lyme">
+            <h2>La maladie de Lyme</h2>
+            <p>La maladie de Lyme est une maladie très courante actuellement transmise par des tiques et attaque l'intestin, d'où l'importance de bien s'alimenter...</p>
+            <div class="argent_photo col s12 m4 l4">
+                <img src="img/img_article/lyme.jpg" alt="article argent2">
+                <a href="https://www.bio-infos-sante.fr/dr-beatrice-milbert-sommes-devant-maladie-de-civilisation/" target="_blank" >Lire la suite</a>
+            </div>
+        </article>
+        <article id ="maladieAuto">
+            <h2>Maladies auto-immunes</h2>
+            <a href="assets/Maladies_auto-immunes.pdf" target="_blank">Ouvrir le PDF: Maladies auto-immunes</a>
+        </article>
+        <article id="tibetain">
+            <h2>Les 5 Tibétains</h2>
+            <a href="assets/Les5Tibetains.pdf" target="_blank">Ouvrir le PDF: Les 5 Tibétains</a>
+        </article>
+        <article id ="vertuEau">
+            <h2>Vertus médicales de l'eau</h2>
+            <a href="assets/Les_Vertus_Medicales_Eau.pdf" target="_blank">Ouvrir le PDF: Vertus de l'eau</a>
+        </article>
+        <article id="beurre">
+            <h2>Différence entre la margarine et le beurre</h2>
+            <a href="assets/Difference_Beurre-Margarine.pdf" target="_blank">Ouvrir le PDF: Beurre - Margarine</a>
+        </article>
+        <article id="alimInt">
+            <h2>Les Intoxications</h2>
+            <p>Notre Organisme est sans répit agressé par un grand nombre de toxines.</p><br>
+            <p>L'intoxication de notre organisme crée un terrain fertile pour<span>le développement de maladies dites "de civilisation"</span> touchant de plus en plus de personnes dans le monde.</p>
+            <img src="img/img_article/intoxication.jpg" alt="schema intoxication">
+            <p>La détoxication est un processus qui implique de<span>multiples acteurs</span>et qui résulte en la transformation par un ensemble de<span>processus biochimiques complexes</span>, de substances étrangères ou<span>potentiellement toxiques</span>composées de lipophiles ne pouvant pas être éliminées par les urines.</p>
+        </article>
+        <article id="alimInf">
+            <h2>Les Inflammations</h2>
+                <img src="img/img_article/inflammation.jpg" alt="schema inflammation"><br>
+                <p>Il existe plusieurs formes d'inflammations pathologiques:</p>
+                <ul>
+                    <li>Inadaptée</li>
+                    <li>Chronique</li>
+                    <li>Générale</li>
+                    <li>Agressive</li>
+                </ul>
+            <p>Il faut donc calmer la réponse inflammatoire:</p>
+            <p>Apporter dans son alimentation ou se supplémanter en acides gras allongés oméga-3, précurseurs des PG3 Anti-inflammatoires.</p>
+            <p>Soutenir les voies enzymatiques de synthèse des acides gras allongés oméga-3 et oméga-6: Mg, Zn, Vitamines B...</p>
+            <img src="img/img_article/inflammation2.jpg" alt="schema2 inflammation">
+        </article>
+        <article id="sommeilFaim">
+            <h2>Le manque de sommeil donne faim</h2>
+            <a href="assets/manquedesommeil.pdf" target="_blank">Ouvrir le PDF: Sommeil et Faim</a>
+        </article>
+        <article id ="maldos">
+            <h2>Mal de dos</h2>
+            <p>Le Mal de dos  est un symptôme caractérisé par une douleur de la région dorsale, le plus souvent basse (lombalgie), parfois plus haut située ou même dorsale moyenne.</p>
+            <p>L'ambiguïté vient du fait que la douleur est un signe clinique qui peut avoir plusieurs significations qui recouvrent en fait des situations fort diverses.</p>
+            <p>En langage populaire, le mal de dos est souvent désigné "mal de reins" ou "tour de rein".</p>
+            <video width="400" controls>
+                <source src="assets/Comment chasser le mal de dos _.mp4" type="video/mp4">
+                <source src="exemple.webm" type="video/webm">
+            </video>
+            <p>Le mal de dos a le plus souvent une origine rachidienne mais des pathologies autres peuvent aussi se manifester par un mal de dos qui peut parfois être trompeur.</p>
+            <h3>Hygiène de vie </h3>
+            <p>Certaines pathologies dégénératives sont provoquées par une mauvaise hygiène de vie: sédentarité, conduite automobile longue et fréquente dans des véhicules équipés de mauvaises suspensions et de mauvais sièges, mauvaise literie (en particulier trop molle), mauvaise posture fréquente (par exemple devant un écran d'ordinateur), mauvaises semelles de chaussure en jogging en particulier dans les descentes.</p>
+            <p>Elle peut être professionnelle, relative à la posture pendant le travail, telle que les médecins dentistes... </p>
+            <p>Rétablir une bonne hygiène de vie peut permettre à une pathologie dégénérative d'arrêter d'évoluer, voire de régresser lentement (si ce n'est pas le cas, on s'intéressera aux traitements).</p>
+            <p>Pendant cette lente régression de la pathologie, on pourra prendre des précautions supplémentaires qui ne sont pas utiles à un individu sain comme le repos physique complet ou l'utilisation de sièges suédois pour lesquels le corps repose autant sur les genoux que sur les fesses et le dos est naturellement droit.</p>
+            <p>Tandis que la douleur disparaitra, au contraire, on reprendra progressivement les exercices physiques pour remédier à l'atrophie de la musculation et au surpoids provoqués par la sédentarité.</p>
+            <h3>Traitement</h3>
+            <p>Le traitement doit bien sûr être adapté à la pathologie.</p>
+            <p>Il dépend du diagnostic, en particulier les instabilités ont des modalités différentes.</p>
+            <p>Il repose sur le fait que la stabilisation musculaire active contrôle et annule la douleur dans la plupart des cas, même en cas d'atteinte anatomique sévère.</p>
+        </article>
+        <article id ="videososteo">
+            <h2>Vidéos Ostéopathie</h2> 
+            <video width="400" controls>
+                <source src="assets/Ostéopathie et Alimentation, Le mal de dos est dans l'assiette, Jean-Pierre Marguaritte.mp4" type="video/mp4">
+            </video>
+            <video width="400" controls>
+                <source src="assets/Emission M6 sur l'ostéopathie.mp4" type="video/mp4">
+                <source src="exemple.webm" type="video/webm">
+            </video>
+        </article>
     </main>
 <footer>
-    <div class="footer container">
+    <div class="footer">
         <div class="footer_nom">© Marie-Noëlle Guibé - Etiopathe - Ostéopathe D.O.</div>
         <div class="footer_nav">
             <h5 class="footer_nav_titre">Navigation</h5>

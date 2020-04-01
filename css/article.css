@@ -1,42 +1,115 @@
 /*main*/
+/*margin bottom article*/
+.main_article_litIncline,
+.main_article_lyme,
+#maladieAuto,
+#tibetain,
+#vertuEau,
+#beurre,
+#alimInf,
+#alimInt,
+#sommeilFaim,
+#maldos,
+#videososteo {
+    margin-bottom: 20px;
+}
+
 /*argent collaidal*/
 .main_article_text {
-    background: linear-gradient(to top, #fff79a,#fffcda 100%);
+    background: linear-gradient(to top, #fff79a, #fffcda 100%);
 }
-.main_article h1{
-    font-size:2.2em;
-    color:#772590;
-    padding-left:10px;
-    padding-top:30px; 
+
+.main_article h1 {
+    font-size: 2.2em;
+    color: #772590;
 }
+
 .main_article h2 {
-    font-size:2em;
-    padding-top:50px;
+    font-size: 2em;
+    padding-top: 40px;
     padding-bottom: 30px;
-    padding-left:10px;
+    padding-left: 10px;
+    line-height: 30px;
 }
+
 .main_article h3 {
-    padding-left:10px;
-    padding-bottom: 10px;
+    padding: 10px 10px 20px;
+    -webkit-text-decoration-line: underline;
+    /* Safari */
     text-decoration-line: underline;
 }
-.main_article p,.main_article a {
+
+.main_article p,
+.main_article a {
     padding-left: 10px;
     padding-bottom: 10px;
 }
-.argent_photo  {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main_article a:hover {
+    color: #772590;
+} 
+.main_article ul {
+    padding-bottom: 10px;
 }
-.argent_photo,.argent_photo_graph {
+
+.main_article ul li {
+    margin-left: 30px;
+    list-style-type: circle;
+    color: #772590;
+}
+
+.argent_photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.argent_photo,
+.argent_photo_graph {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 .argent_photo a {
     margin-top: 10px;
 }
+
 /*lit incliné*/
-.main_article_litIncline{
+.main_article_litIncline,
+#maladieAuto,
+#vertuEau,
+#alimInt,
+#sommeilFaim,
+#videososteo {
     background: linear-gradient(to bottom, #e0b7f5, #f7edfc 100%);
+    padding-bottom: 20px;
 }
+
+/*Lyme*/
+.main_article_lyme,
+#tibetain,
+#beurre,
+#alimInf,
+#maldos {
+    background: linear-gradient(to top, #fff79a, #fffcda 100%);
+}
+
+.main_article_lyme .argent_photo img,
+#alimInt img,
+#alimInf img {
+    padding: 10px 10px;
+}
+
+/*tibetain*/
+#tibetain,
+#beurre,
+#alimInf {
+    padding-bottom: 20px;
+}
+
+
+/*videos*/
+video {
+    width: 100%;
+    height: auto;
+    padding:10px 10px;
+  }

@@ -1,29 +1,31 @@
 /*main*/
 .allergie_content_main {
-  margin-top:30px;
+  background-color: rgba(171, 60, 227, 0.4);
 }
-.allergie_main_img {
-   padding: 20px 0 40px 0;
-  background-color: rgba(171,60,227, 0.4);
+
+.allergie_content_main h1,
+.allergie_main_approche div a {
+  padding: 30px 10px;
 }
-.allergie_main_approche div h2{
- padding:25px 10px;
+
+.allergie_main_approche {
+  padding: 0 10px;
 }
+
+.allergie_main_approche div h2 {
+  padding: 25px 0px;
+}
+
 .allergie_main_approche div a {
   cursor: pointer;
-  padding-left:10px;
 }
+
 .allergie_main_approche div a:hover {
   color: #772590;
-} 
- .allergie_main_approche {
-   padding-bottom: 30px;
- }
- .allergie_main_img h1 {
-  color: #772590;
-  text-align: left;
-  padding-left:10px;
-  padding-bottom:40px;
+}
+
+.allergie_main_approche {
+  padding-bottom: 30px;
 }
 
 /*img circle*/
@@ -31,19 +33,41 @@
   display: flex;
   justify-content: center;
 }
+
+.card.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
 .card-image.allergie1 {
   background-image: url(../img/img_allergie/allergie5.jpg);
-   background-size: cover;
- }
- .card-image.allergie2 {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.card-image.allergie2 {
   background-image: url(../img/img_allergie/allergie4.jpg);
-   background-size: cover;
- }
- .card-image.allergie3 {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.card-image.allergie3 {
   background-image: url(../img/img_allergie/allergie2.jpg);
-   background-size: cover;
- }
- .card-image.allergie4 {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.card-image.allergie4 {
   background-image: url(../img/img_allergie/allergie3.jpg);
-   background-size: cover;
- }
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

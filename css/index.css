@@ -1,261 +1,310 @@
  /*main index.html*/
-
  .index_main .section1 {
-     background-image: url(../img/img_accueil/fleurs.jpg);
-     background-size: cover;
-     width:100%;
-     height:300px;
+    background-image: url(../img/img_accueil/fleurs.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
  }
+
  .index_main h1 {
 
-     letter-spacing: 0.2em;
-     line-height: 35px;
-     text-align:center;
-     padding:30px 0;
+    letter-spacing: 0.2em;
+    line-height: 35px;
+    text-align: center;
+    padding: 30px 0;
  }
+
  .index_bienvenue .citation {
-    color:#687e0f;
+    color: #687e0f;
     font-style: italic;
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
  }
+
  .index_main .list_ul {
-     padding:20px 0;
-     margin-left:20px;
+    padding: 20px 0;
+    margin-left: 20px;
  }
+
  .index_main .list_ul li {
     list-style-type: circle;
-    color:#772590;
+    color: #772590;
  }
- 
+
  /*padding communs articles*/
- .article_atout h2,.article_approche h2,#cabinet h2 {
-     padding:20px 0 40px 0;
+ .article_atout h2,
+ .article_approche h2,
+ #cabinet h2 {
+    padding: 20px 0 40px 0;
  }
- .article_atout,.article_approche,#cabinet {
-    padding:20px 10px;
+
+ .article_atout,
+ .article_approche,
+ #cabinet {
+    padding: 20px 10px;
  }
+
  /*article article_atout*/
  .article_atout {
-    background-color:#e1b8f5;
+    background-color: #e1b8f5;
     margin-bottom: 40px;
  }
- .champ_atout .row_card , .champ_osteo .row_card, .row_cabinet .row_card{
+ .champ_atout .row_card,
+ .champ_osteo .row_card,
+ .row_cabinet .row_card {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
  }
+.champ_osteo {
+   margin-top:10px;
+}
  .card-circle {
-     position:relative;
-     width:100%;
+    position: relative;
+    width: 100%;
  }
+
  .card-title {
-    position:absolute;
-    width:100%;
-    top:150px;
-    left:25px;
-    text-align:center;
-    background-color:rgba(225,184,245, 0.6);
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    left: 25px;
+    text-align: center;
+    background-color: rgba(225, 184, 245, 0.6);
     text-shadow: 4px 4px 4px #772590;
  }
+
  .card.circle {
-    width:250px;
-    height:250px;
-    border-radius: 50%;   
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
  }
+
  .card-image.osteo {
-     background-image: url(../img/img_accueil/squelette.jpg);
-     background-size: cover;
-     width:100%;
-     height:100%;
-     border-radius: 50%;
+    background-image: url(../img/img_accueil/squelette.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
  }
+
  .card-image.allergie {
     background-image: url(../img/img_accueil/allergie5.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
  }
+
  .card-image.nutri {
     background-image: url(../img/img_nutri/nutri.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
  }
+
  .card-image.totalreset {
     background-image: url(../img/img_TMR/methodtmr.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
  }
+
  .card-image.enceinte {
     background-image: url(../img/img_accueil/enceinte.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
  }
+
  .card-image.bebe {
     background-image: url(../img/img_accueil/bebe.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
  }
+
  .card-image.enfant {
     background-image: url(../img/img_accueil/enfant.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
  }
- .card-image.adulte{
+
+ .card-image.adulte {
     background-image: url(../img/img_accueil/adulte.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
- } 
- .card-image.senior{
+ }
+
+ .card-image.senior {
     background-image: url(../img/img_accueil/senior.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
  }
- .card-image.sportif{
+
+ .card-image.sportif {
     background-image: url(../img/img_accueil/sportif.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
  }
+
  /*article approche*/
  .article_approche {
-    background: linear-gradient(to top, #fff052,white 100%);
-    margin-bottom:40px;
+    background: linear-gradient(to top, #fff052, white 100%);
+    margin-bottom: 40px;
  }
+
  /* card presentation*/
- .portrait{
-   padding: 20px 0;
-    background: linear-gradient(to bottom, #fff052,white 100%);
+ .portrait {
+    padding: 20px 0;
+    background: linear-gradient(to bottom, #fff052, white 100%);
  }
+
  .photo_portrait {
-     width:200px;
-     height:200px;
-     border-radius: 50%;
-     background-image: url(../img/img_accueil/marienoelle.jpg);
-     background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../img/img_accueil/guibe.jpg);
+    background-size: cover;
 
  }
+
  .presentation_praticien {
     background: linear-gradient(to top, #e0b7f5, white 100%);
-    text-align:center;
+    text-align: center;
     font-size: 1.5em;
  }
+
  .tel_presentation_praticien {
-    color:#772590;
+    color: #772590;
  }
+
  .tel_presentation_praticien:hover {
-    color:#fff052;
+    color: #fff052;
  }
+
  .presentation_praticien h2 {
-    line-height:45px;
+    line-height: 45px;
  }
+
  .presentation_praticien ul {
-     padding:30px 50px;
+    padding: 30px 50px;
  }
+
  .presentation_praticien ul li {
     list-style-type: circle;
-    color:#772590;
-    text-align:left;
+    color: #772590;
+    text-align: left;
  }
- .presentation_praticien h2, .presentation_praticien_li {
-     padding:20px 0;  
- }
- 
 
+ .presentation_praticien h2,
+ .presentation_praticien_li {
+    padding: 20px 0;
+ }
 
  /*section cabinet*/
  #cabinet {
-    background-color:#e1b8f5;
+    background-color: #e1b8f5;
     margin-top: 40px;
-}
-.card-image.cabinet1 {
+    margin-bottom:20px;
+ }
+
+ .card-image.cabinet1 {
     background-image: url(../img/img_cabinet/cabinet1.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-}
-.card-image.cabinet2 {
+ }
+
+ .card-image.cabinet2 {
     background-image: url(../img/img_cabinet/cabinet2.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-}
-.card-image.cabinet3 {
+ }
+
+ .card-image.cabinet3 {
     background-image: url(../img/img_cabinet/cabinet6.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-}
-.card-image.cabinet4 {
+ }
+
+ .card-image.cabinet4 {
     background-image: url(../img/img_cabinet/cabinet5.jpg);
     background-size: cover;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-}
-/*agenda*/
-.table {
-        background: linear-gradient(to top, #fff052,#fffcda 100%);
-        padding-bottom:20px;
-        margin-bottom:20px;
-    }
-.table th {
+ }
+
+ /*agenda*/
+ .table {
+    background: linear-gradient(to top, #fff052, #fffcda 100%);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+ }
+
+ .table th {
     padding: 10px 0 20px 0;
     font-weight: 510;
-}
-.acces h3{
-    padding-bottom: 10px;
+ }
 
-}
-.row_horaire h4 {
-    padding-bottom:10px;
-    font-size:1.5em;
-}
-.row_horaire p  {
-    padding-bottom:10px; 
-}
-.row_horaire p a {
-    color:#772590;
-}
-.row_horaire p a:hover {
-    color:#fff052;
-}
-@media (min-width: 600px) {
-   .article_presentation {
-       width:100%;
+ .acces h3 {
+    padding-bottom: 10px;
+ }
+
+ .row_horaire h4 {
+    padding-bottom: 10px;
+    font-size: 1.5em;
+ }
+
+ .row_horaire p {
+    padding-bottom: 10px;
+ }
+
+ .row_horaire p a {
+    color: #772590;
+ }
+
+ .row_horaire p a:hover {
+    color: #fff052;
+ }
+
+ @media (min-width: 600px) {
+    .article_presentation {
+       width: 100%;
        display: flex;
-       flex-direction:row;
+       flex-direction: row;
        justify-content: center;
-   } 
-   .portrait {
-       width:100%;
+    }
+
+    .portrait {
+       width: 100%;
        height: auto;
-       padding-top:40px;
+       padding-top: 40px;
        margin-bottom: 0;
-       background: linear-gradient(to right, #fff04b,white 100%);
-   }
-   .presentation_praticien {
-    width:90%;
-    height: auto;
-    margin-bottom: 0;
-    background: linear-gradient(to left, #e0b7f5, white 100%);
-   }
-}
+       background: linear-gradient(to right, #fff04b, white 100%);
+    }
+
+    .presentation_praticien {
+       width: 90%;
+       height: auto;
+       margin-bottom: 0;
+       background: linear-gradient(to left, #e0b7f5, white 100%);
+    }
+ }
