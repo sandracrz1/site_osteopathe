@@ -21,6 +21,7 @@ body {
 
 .sidenav li a {
     font-size: 1em;
+    text-align: center;
 }
 
 .sidenav li a i.material-icons {
@@ -57,6 +58,7 @@ body {
 .collapsible-body article .li_works .collapsible-header {
     color: #772590;
     background-color: #e1b8f5;
+    text-align:center;
 }
 
 .liens_article a {
@@ -142,7 +144,7 @@ main h1 {
 
 main h2 {
     font-size: 1.5em;
-    padding: 20px 10px 20px;
+    padding: 30px 10px 30px;
 }
 
 main h3 {
@@ -159,8 +161,8 @@ main h4 {
     padding: 10px 10px;
 }
 
-main p {
-    font-style: italic;
+main p, ol li, ul li{
+   
     text-align: justify;
     padding: 0px 10px;
 }

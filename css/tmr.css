@@ -7,7 +7,7 @@
 
 .tmr_allergie_text p,
 .tmr_nickel_text p,
-.tmr_main ol li {
+.tmr_main ol li,.tmr_main ul li {
     padding-bottom: 10px;
     line-height: 25px;
 }
