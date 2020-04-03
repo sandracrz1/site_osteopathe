@@ -2,10 +2,7 @@
 .tmr_main {
     color: #772590;
     background: linear-gradient(to bottom, #e0b7f5, #f7edfc 100%);
-    margin-bottom: 20px;
-    text-align: justify;
     line-height: 20px;
-    padding: 0 10px 0 10px;
 }
 
 .tmr_allergie_text p,

@@ -11,7 +11,7 @@
     letter-spacing: 0.2em;
     line-height: 35px;
     text-align: center;
-    padding: 30px 0;
+    
  }
 
  .index_bienvenue .citation {
@@ -21,33 +21,10 @@
     padding-bottom: 20px;
  }
 
- .index_main .list_ul {
-    padding: 20px 0;
-    margin-left: 20px;
- }
-
- .index_main .list_ul li {
-    list-style-type: circle;
-    color: #772590;
- }
-
- /*padding communs articles*/
- .article_atout h2,
- .article_approche h2,
- #cabinet h2 {
-    padding: 20px 0 40px 0;
- }
-
- .article_atout,
- .article_approche,
- #cabinet {
-    padding: 20px 10px;
- }
-
  /*article article_atout*/
  .article_atout {
     background-color: #e1b8f5;
-    margin-bottom: 40px;
+   
  }
  .champ_atout .row_card,
  .champ_osteo .row_card,
@@ -55,9 +32,7 @@
     display: flex;
     justify-content: center;
  }
-.champ_osteo {
-   margin-top:10px;
-}
+
  .card-circle {
     position: relative;
     width: 100%;
@@ -183,7 +158,7 @@
  .presentation_praticien {
     background: linear-gradient(to top, #e0b7f5, white 100%);
     text-align: center;
-    font-size: 1.5em;
+   
  }
 
  .tel_presentation_praticien {
@@ -193,23 +168,12 @@
  .tel_presentation_praticien:hover {
     color: #fff052;
  }
-
- .presentation_praticien h2 {
-    line-height: 45px;
- }
-
- .presentation_praticien ul {
-    padding: 30px 50px;
- }
-
  .presentation_praticien ul li {
-    list-style-type: circle;
-    color: #772590;
-    text-align: left;
-    font-size: 0.7em;
+    text-align:justify;
+    margin-left:30px;
+    margin-right: 10px;
+    
  }
-
- .presentation_praticien h2,
  .presentation_praticien_li {
     padding: 20px 0;
  }
@@ -219,6 +183,7 @@
     background-color: #e1b8f5;
     margin-top: 40px;
     margin-bottom:20px;
+    padding-bottom:20px;
  }
 
  .card-image.cabinet1 {
@@ -257,7 +222,7 @@
  .table {
     background: linear-gradient(to top, #fff052, #fffcda 100%);
     padding-bottom: 20px;
-    margin-bottom: 20px;
+    margin:0 10px 20px;
  }
 
  .table th {
@@ -271,7 +236,7 @@
 
  .row_horaire h4 {
     padding-bottom: 20px;
-    font-size: 1.5em;
+   
  }
 
  .row_horaire p {
@@ -290,7 +255,7 @@
 }
 /*map responsive*/
 .map-responsive {
-   margin-top:10px;
+   margin: 20px 10px 10px;
    overflow:hidden;
    padding-bottom:56.25%;
    position:relative;

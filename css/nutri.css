@@ -1,26 +1,26 @@
 /*main*/
 .nutri_main p {
-    padding: 0 10px;
+  
 }
 
 .nutri_main h1 {
     color: #772590;
-    padding-left: 10px;
+    
 }
 
 .nutri_main h2 {
-   padding:20px 10px 20px;
+ 
 }
 
 .nutri_main h3 {
-    padding:10px 10px 20px;
+ 
     -webkit-text-decoration-line: underline;
     /* Safari */
     text-decoration-line: underline;
 }
 
 .nutri_main a {
-    padding-left: 10px;
+  
 }
 .nutri_main a:hover {
     color: #772590; 

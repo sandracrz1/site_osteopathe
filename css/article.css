@@ -1,6 +1,6 @@
 /*main*/
 /*margin bottom article*/
-.main_article_litIncline,
+/*.main_article_litIncline,
 .main_article_lyme,
 #maladieAuto,
 #tibetain,
@@ -11,8 +11,8 @@
 #sommeilFaim,
 #maldos,
 #videososteo {
-    margin-bottom: 20px;
-}
+   /*
+}*/
 
 /*argent collaidal*/
 .main_article_text {
@@ -20,20 +20,18 @@
 }
 
 .main_article h1 {
-    font-size: 2.2em;
+   
     color: #772590;
+    line-height: 32px;
 }
 
 .main_article h2 {
-    font-size: 2em;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    padding-left: 10px;
+  
     line-height: 30px;
 }
 
 .main_article h3 {
-    padding: 10px 10px 20px;
+   
     -webkit-text-decoration-line: underline;
     /* Safari */
     text-decoration-line: underline;
@@ -42,7 +40,6 @@
 .main_article p,
 .main_article a {
     display:inline-block;
-    padding: 0 10px;
     padding-bottom: 10px;
     
 }
@@ -83,7 +80,7 @@
 #sommeilFaim,
 #videososteo {
     background: linear-gradient(to bottom, #e0b7f5, #f7edfc 100%);
-    padding-bottom: 20px;
+
 }
 
 /*Lyme*/
@@ -105,9 +102,8 @@
 #tibetain,
 #beurre,
 #alimInf,#maldos {
-    padding-bottom: 20px;
+   
 }
-
 
 /*videos*/
 .video {

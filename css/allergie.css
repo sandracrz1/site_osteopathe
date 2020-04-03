@@ -1,32 +1,11 @@
 /*main*/
 .allergie_content_main {
   background-color: rgba(171, 60, 227, 0.4);
-  margin-bottom:20px;
-}
-
-.allergie_content_main h1,
-.allergie_main_approche div a {
-  padding: 30px 10px;
-}
-
-.allergie_main_approche {
-  padding: 0 10px;
-}
-
-.allergie_main_approche div h2 {
-  padding: 25px 0px;
-}
-
-.allergie_main_approche div a {
-  cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .allergie_main_approche div a:hover {
   color: #772590;
-}
-
-.allergie_main_approche {
-  padding-bottom: 30px;
 }
 
 /*img circle*/
