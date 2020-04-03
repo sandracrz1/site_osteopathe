@@ -206,6 +206,7 @@
     list-style-type: circle;
     color: #772590;
     text-align: left;
+    font-size: 0.7em;
  }
 
  .presentation_praticien h2,
@@ -269,7 +270,7 @@
  }
 
  .row_horaire h4 {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-size: 1.5em;
  }
 
@@ -284,6 +285,25 @@
  .row_horaire p a:hover {
     color: #fff052;
  }
+.table {
+   margin-top:10px;
+}
+/*map responsive*/
+.map-responsive {
+   margin-top:10px;
+   overflow:hidden;
+   padding-bottom:56.25%;
+   position:relative;
+   height:0;
+   }
+   
+   .map-responsive iframe {
+   left:0;
+   top:0;
+   height:100%;
+   width:100%;
+   position:absolute;
+   }
 
  @media (min-width: 600px) {
     .article_presentation {

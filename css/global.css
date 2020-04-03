@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.7em;
     line-height: 25px;
     width: 100%;
     color: #772590;
@@ -17,7 +17,6 @@ body {
 .sidenav {
     width: 100%;
     font-size: 1.2em;
-
 }
 
 .sidenav li a {
@@ -153,6 +152,7 @@ main h3 {
 
 main p {
     font-style: italic;
+   
 }
 
 /*footer*/

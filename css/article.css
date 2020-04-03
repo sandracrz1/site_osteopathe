@@ -102,14 +102,12 @@
 /*tibetain*/
 #tibetain,
 #beurre,
-#alimInf {
+#alimInf,#maldos {
     padding-bottom: 20px;
 }
 
 
 /*videos*/
-video {
-    width: 100%;
-    height: auto;
-    padding:10px 10px;
-  }
+.video {
+    padding:0 10px 20px;
+}

@@ -36,9 +36,6 @@ navItem.forEach(function(item) {
     menuInstance.close();
   }) 
 })
-
-
-
 openMenuItem.forEach(function(e){
   e.addEventListener("click", function(event){
  var a = event.target.children[0];
@@ -48,6 +45,7 @@ openMenuItem.forEach(function(e){
       a.innerHTML = "arrow_downward";
   }})
  })
+ 
 
   
  
