@@ -41,8 +41,10 @@
 
 .main_article p,
 .main_article a {
-    padding-left: 10px;
+    display:inline-block;
+    padding: 0 10px;
     padding-bottom: 10px;
+    
 }
 .main_article a:hover {
     color: #772590;
