@@ -6,46 +6,24 @@
 }
 
 .tmr_allergie_text p,
-.tmr_nickel_text p {
+.tmr_nickel_text p,
+.tmr_main ol li {
     padding-bottom: 10px;
-}
-
-.tmr_allergie_text div,
-.tmr_nickel_text div {
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .tmr_main span {
     font-weight: 510;
 }
 
-.tmr_main img {
-    width: 100%;
+.tmr_main div img {
+    padding: 0 10px;
     margin-bottom: 20px;
 }
 
-.tmr_main h2 {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    line-height: 25px;
-    word-break: break-word;
-}
-
-.tmr_main h3 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    -webkit-text-decoration-line: underline;
-    /* Safari */
-    text-decoration-line: underline;
-}
-
-.tmr_main li {
-    padding-bottom: 3px;
-}
-
-.tmr_main ul li {
-    margin-left: 30px;
-    list-style-type: circle;
+.tmr_main img {
+    width: 100%;
+    height: auto;
 }
 
 .tmr_main ol li {

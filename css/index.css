@@ -11,7 +11,7 @@
     letter-spacing: 0.2em;
     line-height: 35px;
     text-align: center;
-    
+
  }
 
  .index_bienvenue .citation {
@@ -24,8 +24,9 @@
  /*article article_atout*/
  .article_atout {
     background-color: #e1b8f5;
-   
+
  }
+
  .champ_atout .row_card,
  .champ_osteo .row_card,
  .row_cabinet .row_card {
@@ -46,12 +47,6 @@
     text-align: center;
     background-color: rgba(225, 184, 245, 0.6);
     text-shadow: 4px 4px 4px #772590;
- }
-
- .card.circle {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
  }
 
  .card-image.osteo {
@@ -158,7 +153,7 @@
  .presentation_praticien {
     background: linear-gradient(to top, #e0b7f5, white 100%);
     text-align: center;
-   
+
  }
 
  .tel_presentation_praticien {
@@ -168,12 +163,14 @@
  .tel_presentation_praticien:hover {
     color: #fff052;
  }
+
  .presentation_praticien ul li {
-    text-align:justify;
-    margin-left:30px;
+    text-align: justify;
+    margin-left: 30px;
     margin-right: 10px;
-    
+
  }
+
  .presentation_praticien_li {
     padding: 20px 0;
  }
@@ -182,8 +179,8 @@
  #cabinet {
     background-color: #e1b8f5;
     margin-top: 40px;
-    margin-bottom:20px;
-    padding-bottom:20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
  }
 
  .card-image.cabinet1 {
@@ -222,7 +219,7 @@
  .table {
     background: linear-gradient(to top, #fff052, #fffcda 100%);
     padding-bottom: 20px;
-    margin:0 10px 20px;
+    margin: 0 10px 20px;
  }
 
  .table th {
@@ -236,7 +233,7 @@
 
  .row_horaire h4 {
     padding-bottom: 20px;
-   
+
  }
 
  .row_horaire p {
@@ -250,27 +247,29 @@
  .row_horaire p a:hover {
     color: #fff052;
  }
-.table {
-   margin-top:10px;
-}
-/*map responsive*/
-.map-responsive {
-   margin: 20px 10px 10px;
-   overflow:hidden;
-   padding-bottom:56.25%;
-   position:relative;
-   height:0;
-   z-index:0;
-   }
-   
-   .map-responsive iframe {
-   left:0;
-   top:0;
-   height:100%;
-   width:100%;
-   position:absolute;
-   z-index:0;
-   }
+
+ .table {
+    margin-top: 10px;
+ }
+
+ /*map responsive*/
+ .map-responsive {
+    margin: 20px 10px 10px;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    z-index: 0;
+ }
+
+ .map-responsive iframe {
+   position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+ }
 
  @media (min-width: 600px) {
     .article_presentation {

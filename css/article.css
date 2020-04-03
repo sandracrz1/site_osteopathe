@@ -1,51 +1,30 @@
 /*main*/
-/*margin bottom article*/
-/*.main_article_litIncline,
-.main_article_lyme,
-#maladieAuto,
-#tibetain,
-#vertuEau,
-#beurre,
-#alimInf,
-#alimInt,
-#sommeilFaim,
-#maldos,
-#videososteo {
-   /*
-}*/
-
 /*argent collaidal*/
 .main_article_text {
     background: linear-gradient(to top, #fff79a, #fffcda 100%);
 }
 
 .main_article h1 {
-   
     color: #772590;
     line-height: 32px;
 }
 
 .main_article h2 {
-  
-    line-height: 30px;
-}
 
-.main_article h3 {
-   
-    -webkit-text-decoration-line: underline;
-    /* Safari */
-    text-decoration-line: underline;
+    line-height: 30px;
 }
 
 .main_article p,
 .main_article a {
-    display:inline-block;
+    display: inline-block;
     padding-bottom: 10px;
-    
+
 }
+
 .main_article a:hover {
     color: #772590;
-} 
+}
+
 .main_article ul {
     padding-bottom: 10px;
 }
@@ -98,14 +77,24 @@
     padding: 10px 10px;
 }
 
-/*tibetain*/
-#tibetain,
-#beurre,
-#alimInf,#maldos {
-   
+/*videos*/
+#videososteo {
+    padding-bottom: 10px;
 }
 
-/*videos*/
 .video {
-    padding:0 10px 20px;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin: 10px 10px;
+
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

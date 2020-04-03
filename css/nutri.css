@@ -1,37 +1,10 @@
 /*main*/
-.nutri_main p {
-  
-}
-
-.nutri_main h1 {
-    color: #772590;
-    
-}
-
-.nutri_main h2 {
- 
-}
-
-.nutri_main h3 {
- 
-    -webkit-text-decoration-line: underline;
-    /* Safari */
-    text-decoration-line: underline;
-}
-
-.nutri_main a {
-  
-}
 .nutri_main a:hover {
-    color: #772590; 
+    color: #772590;
 }
+
 .nutri_main li {
     padding-bottom: 3px;
-}
-
-.nutri_main ul li {
-    margin-left: 20px;
-    list-style-type: circle;
 }
 
 /*section nutritherapie*/
@@ -52,7 +25,7 @@
 .nutri_hydratation {
     background: linear-gradient(to bottom, #e0b7f5, #f7edfc 100%);
     padding-bottom: 10px;
-    margin: 20px 0; 
+    margin: 20px 0;
 }
 
 .nutri_hydratation_tisane_img {
@@ -63,4 +36,3 @@
 .nutri_hydratation_eau_img {
     margin: 10px 10px;
 }
-

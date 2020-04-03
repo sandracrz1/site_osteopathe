@@ -14,12 +14,6 @@
   justify-content: center;
 }
 
-.card.circle {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-}
-
 .card-image.allergie1 {
   background-image: url(../img/img_allergie/allergie5.jpg);
   background-size: cover;
