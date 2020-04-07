@@ -245,6 +245,8 @@
 
  .row_horaire p a {
     color: #772590;
+    padding-left:0;
+    padding-bottom: 0;
  }
 
  .row_horaire p a:hover {
@@ -273,8 +275,8 @@
     width: 100%;
     z-index: 0;
  }
-
- @media (min-width: 600px) {
+/*mediaqueries*/
+ @media (min-width: 700px) {
     .article_presentation {
        width: 100%;
        display: flex;

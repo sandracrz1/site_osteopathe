@@ -7,9 +7,24 @@
     text-align: justify;
 }
 
+.section_temoin {
+    padding-top: 30px;
+}
+
 .section_temoin div {
     padding: 15px 10px;
     background: linear-gradient(to top, #fffac8, white 100%);
     margin-bottom: 10px;
     line-height: 25px;
+}
+
+@media (min-width: 700px) {
+    .main_temoin {
+        padding-top: 10px;
+    }
+
+    h1 {
+
+        margin-left: 10px;
+    }
 }

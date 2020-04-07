@@ -3,6 +3,7 @@
     color: #772590;
     background: linear-gradient(to bottom, #e0b7f5, #f7edfc 100%);
     line-height: 20px;
+   
 }
 
 .tmr_allergie_text p,
@@ -17,19 +18,41 @@
 }
 
 .tmr_main div img {
-    padding: 0 10px;
-    margin-bottom: 20px;
+    margin-bottom:30px;
 }
 
-.tmr_main img {
-    width: 100%;
-    height: auto;
+.img_tmr img,.tmr_main div img  {
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 0 10px;
 }
-
 .tmr_main ol li {
     margin-left: 30px;
 }
 
 .tmr_temoignage_text h2 a:hover {
     color: #772590;
+}
+
+/*mediaqueries*/
+@media screen and (min-width: 700px) {
+
+    
+    .img_tmr {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .img_tmr img {
+        width: 50%;
+        margin: 0 2px;
+    }
+    .tmr_main div img {
+   
+        margin-bottom: 30px;
+    }
 }
