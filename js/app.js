@@ -9,6 +9,7 @@ var navItem;
 var navItemArticleHtml;
 
 
+
 navItemArticleHtml = document.querySelectorAll(".nav_item_article_click");
 openMenuItem = document.querySelectorAll(".collapsible-header");
 navItem = document.querySelectorAll(".nav_item_click");
@@ -21,10 +22,11 @@ document.addEventListener('DOMContentLoaded', function () {
   menuInstance = M.Sidenav.getInstance(menuElems[0]);
   collapsibleElems = document.querySelectorAll('.collapsible');
   M.Collapsible.init(collapsibleElems, {
-    onOpenStart: function(item) {
+    onOpenStart: function (item) {
       item.children[0].children[0].innerHTML = "arrow_upward";
+
     },
-    onCloseStart: function(item) {
+    onCloseStart: function (item) {
       item.children[0].children[0].innerHTML = "arrow_downward";
     }
   });
@@ -47,15 +49,16 @@ navItem.forEach(function (item) {
 })
 //close sous nav article
 navItemArticleHtml.forEach(function (e) {
-
   e.addEventListener("click", function (event) {
-    collapsibleElems.forEach(function(item){
+    collapsibleElems.forEach(function (item) {
       var instance = M.Collapsible.getInstance(item);
       instance.close();
     })
-    
   })
 })
+
+
+
 //change arrow direction
 /*openMenuItem.forEach(function (e) {
   e.addEventListener("click", function (event) {
@@ -67,4 +70,3 @@ navItemArticleHtml.forEach(function (e) {
     }
   })
 })*/
-

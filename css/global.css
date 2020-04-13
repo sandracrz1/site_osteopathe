@@ -17,6 +17,7 @@ body {
 .sidenav {
     width: 100%;
     font-size: 1.2em;
+    overflow-y: hidden;
 }
 
 .sidenav li a {
