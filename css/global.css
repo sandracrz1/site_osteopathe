@@ -17,7 +17,7 @@ body {
 .sidenav {
     width: 100%;
     font-size: 1.2em;
-    overflow-y: hidden;
+
 }
 
 .sidenav li a {
@@ -45,10 +45,6 @@ body {
     width: 100%;
 }
 
-.collapsible.pratique .li_works {
-    padding: 0 auto;
-}
-
 .collapsible.pratique .mesPratiques,
 .liens_article {
     display: flex;
@@ -56,20 +52,40 @@ body {
     justify-content: center;
 }
 
-.collapsible-body article .li_works .collapsible-header {
-    color: #772590;
-    background-color: #e1b8f5;
-    text-align:center;
-}
-
-.liens_article a {
-    color: #772590;
-}
-
-.mesPratiques a,
 .collapsible .collapsible-header.title {
     background-color: #e1b8f5;
     color: #772590;
+}
+
+.article_subitem div {
+    color: #772590;
+    background-color: #e1b8f5;
+    text-align: center;
+
+}
+
+.article_subitem div i {
+    padding-right: 5px;
+
+}
+
+.collapsible-body.article .liens_article,
+.mesPratiques a {
+    background-color: rgba(225, 184, 245, 0.4);
+
+}
+
+.collapsible-body.article .liens_article a,
+.mesPratiques a {
+    color: #772590;
+
+}
+
+.collapsible-body.article .liens_article a:hover,
+.mesPratiques a:hover {
+    color: #772590;
+    background-color: #fffbcc;
+
 }
 
 /*header*/
@@ -140,7 +156,7 @@ main h1 {
     font-size: 1.7em;
     line-height: 30px;
     padding: 30px 10px 30px;
-   
+
 }
 
 main h2 {
@@ -163,8 +179,10 @@ main h4 {
     padding: 10px 10px;
 }
 
-main p, ol li, ul li{
-   
+main p,
+ol li,
+ul li {
+
     text-align: justify;
     padding: 0px 10px;
 }
@@ -180,23 +198,28 @@ main article {
 
 /*ul li*/
 .index_main ul,
-.presentation_praticien ul,.nutri_main ul {
+.presentation_praticien ul,
+.nutri_main ul {
     padding: 10px 0;
-    
+
 }
 
 .index_main ul li,
-.presentation_praticien ul li,.nutri_main ul li,.tmr_main ul li  {
+.presentation_praticien ul li,
+.nutri_main ul li,
+.tmr_main ul li {
     list-style-type: circle;
     color: #772590;
     margin-left: 30px;
 }
+
 /*circle img*/
 .card.circle {
     width: 250px;
     height: 250px;
     border-radius: 50%;
- }
+}
+
 /*footer*/
 .footer {
     background-color: #772590;
@@ -251,7 +274,7 @@ main article {
 
     header {
         padding: 30px 20px;
-       
+
     }
 
     header .menu_job {
@@ -273,16 +296,26 @@ main article {
         padding-top: 20px;
     }
 
-    .index_bienvenue,.article_atout,.article_approche,.article_cabinet,.allergie_content_main,.nutri_alim,.tmr_main,.main_article article,.main_temoin section,.contact_main {
-       padding:10px 20px;
+    .index_bienvenue,
+    .article_atout,
+    .article_approche,
+    .article_cabinet,
+    .allergie_content_main,
+    .nutri_alim,
+    .tmr_main,
+    .main_article article,
+    .main_temoin section,
+    .contact_main {
+        padding: 10px 20px;
     }
 }
 
 @media (min-width: 900px) {
-    
+
     header {
         padding: 20px 20px;
     }
+
     header .menu_job_adress {
         display: flex;
         flex-direction: row;
