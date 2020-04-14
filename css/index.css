@@ -291,7 +291,10 @@
        margin-bottom: 0;
        background: linear-gradient(to right, #fff04b, white 100%);
     }
-
+    .photo_portrait {
+       margin: 0 auto 20px;
+    
+    }
     .presentation_praticien {
        width: 90%;
        height: auto;
